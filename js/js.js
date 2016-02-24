@@ -36,7 +36,7 @@ var makeMap = function(bin) {
 
                     
         var mapImg = document.createElement("img");            
-        mapImg.src = "https://maps.googleapis.com/maps/api/staticmap?center=" +                 position.coords.latitude + "," + position.coords.longitude +                 "&zoom=14&size=400x400&maptype=roadmap&markers=color:red%7Clabel:A%7C" +                 position.coords.latitude + "," + position.coords.longitude +                 "&key=AIzaSyCdv1_sQCStPB9LVQXyg858w3Wd32qzsvw";           
+        mapImg.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," + position.coords.longitude + "&zoom=14&size=400x400&maptype=roadmap&markers=color:red%7Clabel:A%7C" + position.coords.latitude + "," + position.coords.longitude + "&key=AIzaSyCdv1_sQCStPB9LVQXyg858w3Wd32qzsvw";
         console.log(position);
 
                     
